@@ -14,6 +14,8 @@ class Hello < Erector::Widget
         text "Hello, "
         b.big @target
         text "!"
+        p { 
+          b Time.now }
       }
     }
   end
